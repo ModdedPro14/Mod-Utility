@@ -1,0 +1,27 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§6§lMOD Utility [RP]",
+        "description": "§9§lWhat is MOD Utility , MOD Utility helps you to protect your server and make it look cooler. \n§bMade By: moddedpro234",
+        "uuid": "5b4a85f9-8211-40ef-880b-b6c00b6bc6cb",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            14,
+            0
+        ]
+    },
+    "modules": [{
+        "type": "resources",
+        "uuid": "e018fe67-8258-4359-b477-7cb424354ddc",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    }]
+}
