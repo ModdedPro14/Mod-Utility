@@ -13,7 +13,7 @@ system.runSchedule(() => {
         (rank.length >= 1) ? null: (rank = first_rank);
         const nicknameTag = player.getTags().find(tag => tag.startsWith('nickname:'))
         const nickname = nicknameTag?.replace('nickname:', '');
-        player.nameTag = `§r§8[§r${rank?.join(multirankSign)}§r§8]§r ${nickname ?? player.name})}\n§c${Math.round(health.current) / 2} §6/§a ${getMaxHealth(player) / 2}`;        
+        player.nameTag = `§r§8[§r${rank?.join(multirankSign)}§r§8]§r ${nickname ?? player.name}\n§c${Math.round(health.current) / 2} §6/§a ${getMaxHealth(player) / 2}`;        
     });
 }, 8);
 
