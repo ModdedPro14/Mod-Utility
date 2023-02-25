@@ -1,7 +1,7 @@
 import { world, system } from "@minecraft/server";
 import server from "../management/api/server.js";
 
-if (!server.prefix) {
+if (!server.prefix.has('prefix')) {
     server.prefix.write('prefix', '!')
 }
 
